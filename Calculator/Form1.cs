@@ -123,13 +123,13 @@ namespace Calculator
                 result = num1+num2;
 
             if (option.Equals("-"))
-                result = num1 + num2;
+                result = num1 - num2;
 
             if (option.Equals("*"))
-                result = num1 + num2;
+                result = num1 * num2;
 
             if (option.Equals("/"))
-                result = num1 + num2;
+                result = num1 / num2;
 
             txtTotal.Text = result + "";
 
